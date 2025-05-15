@@ -1,0 +1,852 @@
+[
+  {
+    "id": "1",
+    "name": "InnovateTech Solutions",
+    "logo": "https://inn0vatetech.netlify.app/img/logotop.png",
+    "location": "San Francisco, CA",
+    "website": "https://inn0vatetech.netlify.app/",
+    "industry": "Software Development",
+    "jobs": [
+      {
+        "id": "job-001",
+        "title": "Frontend Developer",
+        "bannerImage": "https://example.com/banners/frontend-dev.jpg",
+        "location": "Remote",
+        "salary": "$80,000 - $110,000",
+        "jobType": "Full-time",
+        "description": "Build responsive and user-friendly web interfaces using modern JavaScript frameworks.",
+        "requirements": [
+          "Proficient in HTML, CSS, and JavaScript",
+          "Experience with React or Vue.js",
+          "Familiarity with RESTful APIs",
+          "Good understanding of responsive design",
+          "Excellent problem-solving skills"
+        ]
+      },
+      {
+        "id": "job-002",
+        "title": "Backend Engineer (Node.js)",
+        "bannerImage": "https://example.com/banners/backend-node.jpg",
+        "location": "San Francisco, CA",
+        "salary": "$90,000 - $120,000",
+        "jobType": "Full-time",
+        "description": "Develop and maintain robust server-side applications and APIs.",
+        "requirements": [
+          "Strong experience with Node.js and Express.js",
+          "Proficiency in database technologies (MongoDB, PostgreSQL)",
+          "Experience with microservices architecture",
+          "Knowledge of cloud platforms (AWS, Azure)",
+          "Unit and integration testing"
+        ]
+      },
+      {
+        "id": "job-003",
+        "title": "DevOps Engineer",
+        "bannerImage": "https://example.com/banners/devops.jpg",
+        "location": "Remote",
+        "salary": "$100,000 - $135,000",
+        "jobType": "Full-time",
+        "description": "Automate deployment pipelines and manage cloud infrastructure for continuous delivery.",
+        "requirements": [
+          "Experience with CI/CD tools (Jenkins, GitLab CI)",
+          "Proficiency in Docker and Kubernetes",
+          "Strong scripting skills (Python, Bash)",
+          "Familiarity with infrastructure as code (Terraform, Ansible)",
+          "Cloud platform expertise (AWS, GCP)"
+        ]
+      },
+      {
+        "id": "job-004",
+        "title": "Full Stack Developer",
+        "bannerImage": "https://example.com/banners/fullstack-dev.jpg",
+        "location": "San Francisco, CA",
+        "salary": "$95,000 - $125,000",
+        "jobType": "Full-time",
+        "description": "Work across both frontend and backend to deliver complete web solutions.",
+        "requirements": [
+          "Proficiency in a frontend framework (React, Angular, Vue)",
+          "Experience with a backend language/framework (Node.js, Python/Django, Ruby/Rails)",
+          "Database management skills",
+          "Understanding of version control (Git)",
+          "Problem-solving and debugging abilities"
+        ]
+      },
+      {
+        "id": "job-005",
+        "title": "UI/UX Designer",
+        "bannerImage": "https://example.com/banners/uiux-design.jpg",
+        "location": "San Francisco, CA",
+        "salary": "$75,000 - $100,000",
+        "jobType": "Full-time",
+        "description": "Design intuitive and aesthetically pleasing user experiences and interfaces.",
+        "requirements": [
+          "Strong portfolio showcasing UI/UX design work",
+          "Proficiency in design tools (Figma, Sketch, Adobe XD)",
+          "User research and usability testing experience",
+          "Understanding of user-centered design principles",
+          "Wireframing and prototyping skills"
+        ]
+      },
+      {
+        "id": "job-006",
+        "title": "Software Quality Assurance Engineer",
+        "bannerImage": "https://example.com/banners/qa-engineer.jpg",
+        "location": "Remote",
+        "salary": "$70,000 - $95,000",
+        "jobType": "Full-time",
+        "description": "Ensure the quality and reliability of software products through comprehensive testing.",
+        "requirements": [
+          "Experience with manual and automated testing",
+          "Familiarity with test management tools (Jira, TestRail)",
+          "Knowledge of testing methodologies (Agile, Scrum)",
+          "Ability to write clear and concise test cases",
+          "Basic scripting skills (Python, JavaScript)"
+        ]
+      },
+      {
+        "id": "job-007",
+        "title": "Mobile App Developer (iOS)",
+        "bannerImage": "https://example.com/banners/ios-dev.jpg",
+        "location": "San Francisco, CA",
+        "salary": "$90,000 - $120,000",
+        "jobType": "Full-time",
+        "description": "Develop and maintain high-performance iOS applications.",
+        "requirements": [
+          "Proficiency in Swift and Xcode",
+          "Experience with iOS frameworks (UIKit, SwiftUI)",
+          "Understanding of Apple's Human Interface Guidelines",
+          "Familiarity with RESTful APIs integration",
+          "Knowledge of unit and UI testing for iOS"
+        ]
+      },
+      {
+        "id": "job-008",
+        "title": "Data Scientist",
+        "bannerImage": "https://example.com/banners/data-scientist.jpg",
+        "location": "San Francisco, CA",
+        "salary": "$100,000 - $130,000",
+        "jobType": "Full-time",
+        "description": "Analyze complex data sets to extract insights and build predictive models.",
+        "requirements": [
+          "Strong background in statistics and mathematics",
+          "Proficiency in Python or R for data analysis",
+          "Experience with machine learning frameworks (TensorFlow, PyTorch)",
+          "Knowledge of SQL and database management",
+          "Excellent data visualization skills"
+        ]
+      },
+      {
+        "id": "job-009",
+        "title": "Technical Writer",
+        "bannerImage": "https://example.com/banners/tech-writer.jpg",
+        "location": "Remote",
+        "salary": "$65,000 - $90,000",
+        "jobType": "Full-time",
+        "description": "Create clear, concise, and accurate technical documentation for software products.",
+        "requirements": [
+          "Proven experience in technical writing for software",
+          "Ability to explain complex technical concepts simply",
+          "Experience with documentation tools (e.g., Confluence, Markdown)",
+          "Strong communication and collaboration skills",
+          "Attention to detail and accuracy"
+        ]
+      },
+      {
+        "id": "job-010",
+        "title": "Software Architect",
+        "bannerImage": "https://example.com/banners/software-architect.jpg",
+        "location": "San Francisco, CA",
+        "salary": "$130,000 - $160,000",
+        "jobType": "Full-time",
+        "description": "Lead the design and implementation of complex software systems and applications.",
+        "requirements": [
+          "Extensive experience in software design and development",
+          "Deep understanding of architectural patterns and best practices",
+          "Proficiency in multiple programming languages and technologies",
+          "Experience with system integration and scalability",
+          "Strong leadership and communication skills"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "IPDC",
+    "logo": "https://www.ipdcbd.com/images/IPDC-logo.png",
+    "location": "Dhaka, Bangladesh",
+    "website": "https://www.ipdcbd.com/",
+    "industry": "Finance",
+    "jobs": [
+      {
+        "id": "job-011",
+        "title": "Financial Analyst",
+        "bannerImage": "https://example.com/banners/financial-analyst.jpg",
+        "location": "New York, NY",
+        "salary": "$70,000 - $95,000",
+        "jobType": "Full-time",
+        "description": "Conduct financial analysis, modeling, and reporting to support business decisions.",
+        "requirements": [
+          "Proficiency in Microsoft Excel and financial modeling",
+          "Strong analytical and quantitative skills",
+          "Knowledge of financial statements and accounting principles",
+          "Excellent communication and presentation skills",
+          "CFA or equivalent certification is a plus"
+        ]
+      },
+      {
+        "id": "job-012",
+        "title": "Investment Associate",
+        "bannerImage": "https://example.com/banners/investment-associate.jpg",
+        "location": "New York, NY",
+        "salary": "$85,000 - $115,000",
+        "jobType": "Full-time",
+        "description": "Assist in evaluating investment opportunities, due diligence, and portfolio management.",
+        "requirements": [
+          "Background in finance, economics, or related field",
+          "Experience with financial markets and investment products",
+          "Strong research and analytical capabilities",
+          "Ability to work in a fast-paced environment",
+          "Excellent interpersonal skills"
+        ]
+      },
+      {
+        "id": "job-013",
+        "title": "Risk Management Specialist",
+        "bannerImage": "https://example.com/banners/risk-management.jpg",
+        "location": "New York, NY",
+        "salary": "$75,000 - $105,000",
+        "jobType": "Full-time",
+        "description": "Identify, assess, and mitigate financial risks across various portfolios.",
+        "requirements": [
+          "Experience in risk assessment and mitigation strategies",
+          "Knowledge of regulatory compliance (e.g., Basel III)",
+          "Strong quantitative and statistical analysis skills",
+          "Understanding of market, credit, and operational risk",
+          "Ability to develop and implement risk models"
+        ]
+      },
+      {
+        "id": "job-014",
+        "title": "Blockchain Developer (FinTech)",
+        "bannerImage": "https://example.com/banners/blockchain-fintech.jpg",
+        "location": "Remote",
+        "salary": "$100,000 - $130,000",
+        "jobType": "Full-time",
+        "description": "Develop and implement decentralized applications and smart contracts for financial services.",
+        "requirements": [
+          "Proficiency in Solidity and Ethereum development",
+          "Experience with Web3.js or Ethers.js",
+          "Understanding of blockchain architecture and cryptography",
+          "Knowledge of distributed ledger technologies",
+          "Familiarity with financial protocols (DeFi)"
+        ]
+      },
+      {
+        "id": "job-015",
+        "title": "Quantitative Analyst (Quant)",
+        "bannerImage": "https://example.com/banners/quant-analyst.jpg",
+        "location": "New York, NY",
+        "salary": "$110,000 - $150,000",
+        "jobType": "Full-time",
+        "description": "Develop and implement quantitative models for trading strategies and risk management.",
+        "requirements": [
+          "Advanced degree in a quantitative field (Math, Physics, Comp Sci)",
+          "Strong programming skills in Python, C++, or R",
+          "Expertise in statistical modeling and time series analysis",
+          "Knowledge of financial derivatives and market microstructure",
+          "Experience with large datasets and parallel computing"
+        ]
+      },
+      {
+        "id": "job-016",
+        "title": "Compliance Officer",
+        "bannerImage": "https://example.com/banners/compliance-officer.jpg",
+        "location": "New York, NY",
+        "salary": "$80,000 - $110,000",
+        "jobType": "Full-time",
+        "description": "Ensure adherence to financial regulations, internal policies, and industry best practices.",
+        "requirements": [
+          "In-depth knowledge of financial regulations (e.g., Dodd-Frank, MiFID II)",
+          "Experience with AML and KYC procedures",
+          "Ability to conduct internal audits and investigations",
+          "Strong attention to detail and ethical conduct",
+          "Excellent communication skills for stakeholder engagement"
+        ]
+      },
+      {
+        "id": "job-017",
+        "title": "Portfolio Manager Assistant",
+        "bannerImage": "https://example.com/banners/portfolio-assistant.jpg",
+        "location": "New York, NY",
+        "salary": "$60,000 - $85,000",
+        "jobType": "Full-time",
+        "description": "Support portfolio managers in research, analysis, and trade execution.",
+        "requirements": [
+          "Basic understanding of investment strategies and asset classes",
+          "Proficiency in financial software (e.g., Bloomberg, Refinitiv)",
+          "Strong organizational and multitasking skills",
+          "Ability to conduct market research and data compilation",
+          "Interest in capital markets"
+        ]
+      },
+      {
+        "id": "job-018",
+        "title": "Credit Analyst",
+        "bannerImage": "https://example.com/banners/credit-analyst.jpg",
+        "location": "New York, NY",
+        "salary": "$65,000 - $90,000",
+        "jobType": "Full-time",
+        "description": "Assess the creditworthiness of individuals or corporations and evaluate loan applications.",
+        "requirements": [
+          "Experience in financial statement analysis and credit risk assessment",
+          "Knowledge of credit scoring models and lending practices",
+          "Strong analytical and decision-making skills",
+          "Ability to interpret financial data and market trends",
+          "Attention to detail and accuracy"
+        ]
+      },
+      {
+        "id": "job-019",
+        "title": "FinTech Product Manager",
+        "bannerImage": "https://example.com/banners/fintech-pm.jpg",
+        "location": "New York, NY",
+        "salary": "$110,000 - $140,000",
+        "jobType": "Full-time",
+        "description": "Lead the development and launch of innovative financial technology products.",
+        "requirements": [
+          "Proven experience as a Product Manager in the FinTech space",
+          "Strong understanding of financial services and technology trends",
+          "Ability to define product vision, strategy, and roadmap",
+          "Experience with agile development methodologies",
+          "Excellent communication and stakeholder management skills"
+        ]
+      },
+      {
+        "id": "job-020",
+        "title": "Sales Trader",
+        "bannerImage": "https://example.com/banners/sales-trader.jpg",
+        "location": "New York, NY",
+        "salary": "$90,000 - $130,000 (plus commission)",
+        "jobType": "Full-time",
+        "description": "Execute trades for clients and provide market insights across various asset classes.",
+        "requirements": [
+          "Experience in trading or sales trading roles",
+          "Strong knowledge of financial markets and trading strategies",
+          "Excellent client relationship management skills",
+          "Ability to work under pressure and make quick decisions",
+          "Relevant licenses (e.g., Series 7, Series 63) are a plus"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "MediCare Systems Inc.",
+    "logo": "https://medicaresys.com/images/logo.gif",
+    "location": "Boston, MA",
+    "website": "https://medicaresys.com/home.php",
+    "industry": "Healthcare",
+    "jobs": [
+      {
+        "id": "job-021",
+        "title": "Clinical Research Coordinator",
+        "bannerImage": "https://example.com/banners/clinical-research.jpg",
+        "location": "Boston, MA",
+        "salary": "$60,000 - $85,000",
+        "jobType": "Full-time",
+        "description": "Manage and coordinate clinical trials and research studies according to protocols.",
+        "requirements": [
+          "Experience in clinical research and trial management",
+          "Knowledge of GCP (Good Clinical Practice) guidelines",
+          "Strong organizational and data collection skills",
+          "Ability to interact with patients and healthcare professionals",
+          "Attention to detail and regulatory compliance"
+        ]
+      },
+      {
+        "id": "job-022",
+        "title": "Medical Device Engineer",
+        "bannerImage": "https://example.com/banners/medical-device.jpg",
+        "location": "Boston, MA",
+        "salary": "$85,000 - $115,000",
+        "jobType": "Full-time",
+        "description": "Design, develop, and test innovative medical devices for healthcare applications.",
+        "requirements": [
+          "Bachelor's or Master's in Biomedical or Electrical Engineering",
+          "Experience with CAD software and prototyping",
+          "Knowledge of medical device regulations (e.g., FDA, CE)",
+          "Strong problem-solving skills and attention to detail",
+          "Familiarity with quality management systems (ISO 13485)"
+        ]
+      },
+      {
+        "id": "job-023",
+        "title": "Health Data Analyst",
+        "bannerImage": "https://example.com/banners/health-data.jpg",
+        "location": "Remote",
+        "salary": "$70,000 - $100,000",
+        "jobType": "Full-time",
+        "description": "Analyze complex healthcare data to identify trends, improve outcomes, and support decision-making.",
+        "requirements": [
+          "Proficiency in SQL and data visualization tools (Tableau, Power BI)",
+          "Experience with statistical analysis (R, Python)",
+          "Knowledge of healthcare datasets and coding (ICD, CPT)",
+          "Understanding of HIPAA and data privacy regulations",
+          "Strong communication skills to present findings"
+        ]
+      },
+      {
+        "id": "job-024",
+        "title": "EHR Systems Administrator",
+        "bannerImage": "https://example.com/banners/ehr-admin.jpg",
+        "location": "Boston, MA",
+        "salary": "$65,000 - $90,000",
+        "jobType": "Full-time",
+        "description": "Manage, configure, and troubleshoot Electronic Health Record (EHR) systems for healthcare providers.",
+        "requirements": [
+          "Experience with Epic, Cerner, or other major EHR systems",
+          "Strong technical support and problem-solving abilities",
+          "Knowledge of healthcare workflows and clinical processes",
+          "Understanding of data security and patient privacy",
+          "Certification in relevant EHR systems is a plus"
+        ]
+      },
+      {
+        "id": "job-025",
+        "title": "Public Health Epidemiologist",
+        "bannerImage": "https://example.com/banners/public-health.jpg",
+        "location": "Remote",
+        "salary": "$75,000 - $105,000",
+        "jobType": "Full-time",
+        "description": "Investigate patterns and causes of disease and injury in human populations.",
+        "requirements": [
+          "Master's in Public Health (MPH) with Epidemiology focus",
+          "Experience with statistical software (SAS, R, SPSS)",
+          "Ability to design and conduct epidemiological studies",
+          "Strong data interpretation and reporting skills",
+          "Knowledge of public health surveillance systems"
+        ]
+      },
+      {
+        "id": "job-026",
+        "title": "Telehealth Coordinator",
+        "bannerImage": "https://example.com/banners/telehealth-coord.jpg",
+        "location": "Boston, MA",
+        "salary": "$55,000 - $75,000",
+        "jobType": "Full-time",
+        "description": "Facilitate virtual healthcare appointments, manage telehealth platforms, and support patients.",
+        "requirements": [
+          "Experience with virtual communication platforms (Zoom for Healthcare, Doxy.me)",
+          "Excellent communication and patient support skills",
+          "Understanding of healthcare scheduling and patient intake processes",
+          "Basic technical troubleshooting abilities",
+          "Empathy and patience with diverse patient populations"
+        ]
+      },
+      {
+        "id": "job-027",
+        "title": "Medical Coder",
+        "bannerImage": "https://example.com/banners/medical-coder.jpg",
+        "location": "Remote",
+        "salary": "$45,000 - $65,000",
+        "jobType": "Full-time",
+        "description": "Translate healthcare diagnoses, procedures, medical services, and equipment into universal medical alphanumeric codes.",
+        "requirements": [
+          "Certification in Medical Coding (e.g., CPC, CCS)",
+          "Proficiency in ICD-10-CM, CPT, and HCPCS Level II coding",
+          "Understanding of medical terminology and anatomy",
+          "Attention to detail and accuracy in coding",
+          "Knowledge of billing and reimbursement processes"
+        ]
+      },
+      {
+        "id": "job-028",
+        "title": "Biostatistician",
+        "bannerImage": "https://example.com/banners/biostatistician.jpg",
+        "location": "Boston, MA",
+        "salary": "$90,000 - $130,000",
+        "jobType": "Full-time",
+        "description": "Apply statistical methods to analyze biological and health-related data in clinical trials and research.",
+        "requirements": [
+          "PhD or Master's in Biostatistics or Statistics",
+          "Expertise in statistical software (SAS, R, Python)",
+          "Experience with clinical trial design and analysis",
+          "Strong understanding of experimental design and hypothesis testing",
+          "Ability to present complex statistical concepts clearly"
+        ]
+      },
+      {
+        "id": "job-029",
+        "title": "Healthcare IT Security Analyst",
+        "bannerImage": "https://example.com/banners/healthcare-security.jpg",
+        "location": "Boston, MA",
+        "salary": "$80,000 - $110,000",
+        "jobType": "Full-time",
+        "description": "Protect healthcare information systems and patient data from cyber threats and ensure compliance.",
+        "requirements": [
+          "Experience in cybersecurity operations and incident response",
+          "Knowledge of HIPAA, HITECH, and other healthcare security regulations",
+          "Familiarity with network security, firewalls, and intrusion detection systems",
+          "Ability to conduct security audits and vulnerability assessments",
+          "Relevant security certifications (e.g., CompTIA Security+, CISSP) is a plus"
+        ]
+      },
+      {
+        "id": "job-030",
+        "title": "Patient Experience Manager",
+        "bannerImage": "https://example.com/banners/patient-experience.jpg",
+        "location": "Boston, MA",
+        "salary": "$70,000 - $95,000",
+        "jobType": "Full-time",
+        "description": "Develop and implement strategies to enhance overall patient satisfaction and engagement.",
+        "requirements": [
+          "Experience in patient relations or customer service in a healthcare setting",
+          "Strong empathy and interpersonal communication skills",
+          "Ability to analyze patient feedback and implement improvements",
+          "Knowledge of healthcare service delivery models",
+          "Problem-solving and conflict resolution abilities"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "GreenVolt Energy Solutions",
+    "logo": "https://greenvolt.com/wp-content/uploads/2022/10/CORPORATE_color.svg",
+    "location": "Denver, CO",
+    "website": "https://greenvolt.com/",
+    "industry": "Clean Energy",
+    "jobs": [
+      {
+        "id": "job-031",
+        "title": "Solar Energy Engineer",
+        "bannerImage": "https://example.com/banners/solar-engineer.jpg",
+        "location": "Denver, CO",
+        "salary": "$75,000 - $105,000",
+        "jobType": "Full-time",
+        "description": "Design, develop, and optimize solar photovoltaic (PV) systems for residential and commercial projects.",
+        "requirements": [
+          "Degree in Electrical Engineering or Renewable Energy",
+          "Experience with solar PV system design tools (e.g., PVsyst, Helioscope)",
+          "Knowledge of electrical codes and safety standards (NEC)",
+          "Familiarity with energy storage solutions",
+          "Project management skills"
+        ]
+      },
+      {
+        "id": "job-032",
+        "title": "Wind Turbine Technician",
+        "bannerImage": "https://example.com/banners/wind-turbine.jpg",
+        "location": "Field-based (various sites)",
+        "salary": "$60,000 - $85,000",
+        "jobType": "Full-time",
+        "description": "Perform installation, maintenance, and repair of wind turbine generators and components.",
+        "requirements": [
+          "Technical degree or certification in wind energy or relevant field",
+          "Experience with mechanical and electrical systems troubleshooting",
+          "Ability to work at heights and in various weather conditions",
+          "Knowledge of safety protocols in wind farms",
+          "Strong communication and teamwork skills"
+        ]
+      },
+      {
+        "id": "job-033",
+        "title": "Battery Storage Systems Engineer",
+        "bannerImage": "https://example.com/banners/battery-storage.jpg",
+        "location": "Denver, CO",
+        "salary": "$90,000 - $120,000",
+        "jobType": "Full-time",
+        "description": "Design, integrate, and optimize battery energy storage systems (BESS) for grid-scale and commercial applications.",
+        "requirements": [
+          "Background in Electrical Engineering or Chemical Engineering",
+          "Experience with battery technologies (Li-ion, flow batteries)",
+          "Knowledge of power electronics and grid integration challenges",
+          "Familiarity with energy management systems (EMS)",
+          "Simulation and modeling experience"
+        ]
+      },
+      {
+        "id": "job-034",
+        "title": "Hydro Power Plant Operator",
+        "bannerImage": "https://example.com/banners/hydro-power.jpg",
+        "location": "Remote (plant sites)",
+        "salary": "$70,000 - $95,000",
+        "jobType": "Full-time",
+        "description": "Monitor and operate hydroelectric power generation equipment to ensure efficient and safe operation.",
+        "requirements": [
+          "Experience in power plant operations or related industrial environment",
+          "Knowledge of hydraulics, electrical systems, and control systems",
+          "Ability to respond to alarms and emergencies effectively",
+          "Understanding of environmental regulations for water management",
+          "Strong mechanical aptitude and troubleshooting skills"
+        ]
+      },
+      {
+        "id": "job-035",
+        "title": "Geothermal Project Manager",
+        "bannerImage": "https://example.com/banners/geothermal-pm.jpg",
+        "location": "Denver, CO",
+        "salary": "$100,000 - $140,000",
+        "jobType": "Full-time",
+        "description": "Lead and oversee the development and construction of geothermal energy projects from concept to completion.",
+        "requirements": [
+          "Proven project management experience in the energy sector",
+          "Knowledge of geothermal drilling and power generation technologies",
+          "Strong understanding of permitting, regulatory compliance, and land acquisition",
+          "Budget management and financial modeling skills",
+          "Excellent communication and stakeholder engagement abilities"
+        ]
+      },
+      {
+        "id": "job-036",
+        "title": "Bioenergy Research Scientist",
+        "bannerImage": "https://example.com/banners/bioenergy-research.jpg",
+        "location": "Denver, CO",
+        "salary": "$80,000 - $110,000",
+        "jobType": "Full-time",
+        "description": "Conduct research and develop new technologies for sustainable bioenergy production and conversion.",
+        "requirements": [
+          "PhD or Master's in Chemical Engineering, Biotechnology, or related field",
+          "Experience with biomass conversion processes (e.g., anaerobic digestion, gasification)",
+          "Knowledge of fermentation and biochemical engineering principles",
+          "Laboratory research experience and data analysis skills",
+          "Ability to publish research findings"
+        ]
+      },
+      {
+        "id": "job-037",
+        "title": "Smart Grid Engineer",
+        "bannerImage": "https://example.com/banners/smart-grid.jpg",
+        "location": "Remote",
+        "salary": "$95,000 - $125,000",
+        "jobType": "Full-time",
+        "description": "Develop and implement advanced grid technologies to enhance efficiency, reliability, and renewable integration.",
+        "requirements": [
+          "Degree in Electrical Engineering with focus on Power Systems",
+          "Experience with SCADA systems and grid automation",
+          "Knowledge of cybersecurity for critical infrastructure",
+          "Familiarity with distributed energy resources (DER) integration",
+          "Programming skills (e.g., Python, MATLAB)"
+        ]
+      },
+      {
+        "id": "job-038",
+        "title": "Energy Policy Analyst",
+        "bannerImage": "https://example.com/banners/energy-policy.jpg",
+        "location": "Denver, CO",
+        "salary": "$70,000 - $100,000",
+        "jobType": "Full-time",
+        "description": "Analyze energy policies, regulations, and market trends to inform strategic decisions and advocacy efforts.",
+        "requirements": [
+          "Background in Public Policy, Economics, or Environmental Studies",
+          "Strong analytical and research skills for policy evaluation",
+          "Knowledge of renewable energy incentives and regulations",
+          "Excellent written and verbal communication abilities",
+          "Experience interacting with government agencies or advocacy groups"
+        ]
+      },
+      {
+        "id": "job-039",
+        "title": "Carbon Capture & Storage Engineer",
+        "bannerImage": "https://example.com/banners/ccs-engineer.jpg",
+        "location": "Denver, CO",
+        "salary": "$85,000 - $115,000",
+        "jobType": "Full-time",
+        "description": "Develop and implement technologies for capturing and storing carbon dioxide emissions from industrial sources.",
+        "requirements": [
+          "Degree in Chemical Engineering or Environmental Engineering",
+          "Knowledge of CO2 capture technologies (e.g., amine scrubbing)",
+          "Understanding of geological storage principles",
+          "Experience with process simulation software",
+          "Familiarity with environmental regulations regarding carbon emissions"
+        ]
+      },
+      {
+        "id": "job-040",
+        "title": "EV Charging Infrastructure Designer",
+        "bannerImage": "https://example.com/banners/ev-charging.jpg",
+        "location": "Denver, CO",
+        "salary": "$80,000 - $110,000",
+        "jobType": "Full-time",
+        "description": "Design and plan electric vehicle (EV) charging station networks and infrastructure.",
+        "requirements": [
+          "Background in Electrical Engineering or Civil Engineering",
+          "Experience with power distribution and electrical layouts",
+          "Knowledge of EV charging standards (e.g., J1772, CCS, CHAdeMO)",
+          "Familiarity with site planning and permitting processes",
+          "CAD software proficiency"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Acme Education Tech",
+    "logo": "https://acme.edu.pk/wp-content/uploads/2024/03/web-logo.png",
+    "location": "Austin, TX",
+    "website": "https://acme.edu.pk/",
+    "industry": "Education Technology",
+    "jobs": [
+      {
+        "id": "job-041",
+        "title": "Instructional Designer",
+        "bannerImage": "https://example.com/banners/instructional-designer.jpg",
+        "location": "Remote",
+        "salary": "$60,000 - $85,000",
+        "jobType": "Full-time",
+        "description": "Design and develop engaging and effective e-learning courses and educational content.",
+        "requirements": [
+          "Experience with adult learning theories and instructional design models (ADDIE, SAM)",
+          "Proficiency in authoring tools (Articulate Storyline, Adobe Captivate)",
+          "Strong content development and curriculum writing skills",
+          "Ability to create engaging multimedia (video, audio, graphics)",
+          "Knowledge of learning management systems (LMS)"
+        ]
+      },
+      {
+        "id": "job-042",
+        "title": "Educational Software Developer",
+        "bannerImage": "https://example.com/banners/edu-software-dev.jpg",
+        "location": "Austin, TX",
+        "salary": "$80,000 - $110,000",
+        "jobType": "Full-time",
+        "description": "Build interactive and adaptive educational software applications and platforms.",
+        "requirements": [
+          "Proficiency in programming languages like Python, JavaScript, or C#",
+          "Experience with web development frameworks (React, Angular, Vue)",
+          "Understanding of database design for educational data",
+          "Familiarity with educational standards (SCORM, LTI)",
+          "Problem-solving and debugging skills"
+        ]
+      },
+      {
+        "id": "job-043",
+        "title": "Content Writer (EdTech)",
+        "bannerImage": "https://example.com/banners/content-writer-edtech.jpg",
+        "location": "Remote",
+        "salary": "$55,000 - $75,000",
+        "jobType": "Full-time",
+        "description": "Create compelling, accurate, and pedagogically sound content for various educational products.",
+        "requirements": [
+          "Proven experience in writing for educational audiences",
+          "Strong research and fact-checking abilities",
+          "Excellent grammar, spelling, and punctuation",
+          "Ability to adapt writing style for different platforms (e.g., articles, scripts, exercises)",
+          "Familiarity with SEO best practices for educational content"
+        ]
+      },
+      {
+        "id": "job-044",
+        "title": "Learning Management System (LMS) Administrator",
+        "bannerImage": "https://example.com/banners/lms-admin.jpg",
+        "location": "Austin, TX",
+        "salary": "$65,000 - $90,000",
+        "jobType": "Full-time",
+        "description": "Manage, configure, and support the company's learning management system and related tools.",
+        "requirements": [
+          "Extensive experience with popular LMS platforms (e.g., Canvas, Moodle, Blackboard)",
+          "Strong technical troubleshooting and problem-solving skills",
+          "Ability to manage user accounts, courses, and content uploads",
+          "Experience with LMS integrations and reporting features",
+          "Excellent communication and user support abilities"
+        ]
+      },
+      {
+        "id": "job-045",
+        "title": "Educational Data Analyst",
+        "bannerImage": "https://example.com/banners/edu-data-analyst.jpg",
+        "location": "Austin, TX",
+        "salary": "$70,000 - $95,000",
+        "jobType": "Full-time",
+        "description": "Analyze educational data to identify trends, measure learning effectiveness, and inform product improvements.",
+        "requirements": [
+          "Proficiency in SQL for data extraction and manipulation",
+          "Experience with data visualization tools (Tableau, Power BI)",
+          "Strong statistical analysis skills (e.g., A/B testing, regression)",
+          "Ability to translate data insights into actionable recommendations",
+          "Knowledge of educational assessment and learning analytics"
+        ]
+      },
+      {
+        "id": "job-046",
+        "title": "Curriculum Development Specialist",
+        "bannerImage": "https://example.com/banners/curriculum-dev.jpg",
+        "location": "Remote",
+        "salary": "$68,000 - $92,000",
+        "jobType": "Full-time",
+        "description": "Design, develop, and revise educational curricula across various subjects and grade levels.",
+        "requirements": [
+          "Master's degree in Education, Curriculum & Instruction, or related field",
+          "Proven experience in curriculum design and alignment with learning standards",
+          "Strong pedagogical knowledge and understanding of instructional strategies",
+          "Ability to collaborate with subject matter experts",
+          "Excellent writing and editing skills"
+        ]
+      },
+      {
+        "id": "job-047",
+        "title": "Accessibility Specialist (EdTech)",
+        "bannerImage": "https://example.com/banners/accessibility-edtech.jpg",
+        "location": "Remote",
+        "salary": "$75,000 - $100,000",
+        "jobType": "Full-time",
+        "description": "Ensure all educational products and platforms meet accessibility standards (WCAG, Section 508).",
+        "requirements": [
+          "Expert knowledge of WCAG guidelines and other accessibility standards",
+          "Experience with accessibility testing tools and assistive technologies",
+          "Ability to conduct accessibility audits and provide recommendations",
+          "Familiarity with front-end development (HTML, CSS, ARIA) is a plus",
+          "Strong advocacy for inclusive design principles"
+        ]
+      },
+      {
+        "id": "job-048",
+        "title": "EduTech Sales Manager",
+        "bannerImage": "https://example.com/banners/edutech-sales.jpg",
+        "location": "Austin, TX",
+        "salary": "$80,000 - $120,000 (plus commission)",
+        "jobType": "Full-time",
+        "description": "Lead a sales team and drive revenue growth by promoting educational technology solutions to institutions.",
+        "requirements": [
+          "Proven experience in B2B sales management, preferably in EdTech",
+          "Strong understanding of the education market and sales cycles",
+          "Excellent leadership, coaching, and team-building skills",
+          "Ability to develop and execute sales strategies",
+          "Proficiency in CRM software (e.g., Salesforce)"
+        ]
+      },
+      {
+        "id": "job-049",
+        "title": "Online Course Facilitator",
+        "bannerImage": "https://example.com/banners/online-facilitator.jpg",
+        "location": "Remote",
+        "salary": "$40,000 - $60,000",
+        "jobType": "Part-time",
+        "description": "Guide and support students in online courses, foster engagement, and provide feedback.",
+        "requirements": [
+          "Experience in online teaching or facilitation",
+          "Strong communication and interpersonal skills",
+          "Familiarity with online learning platforms and tools",
+          "Ability to motivate and engage adult learners",
+          "Subject matter expertise in relevant fields"
+        ]
+      },
+      {
+        "id": "job-050",
+        "title": "XR (AR/VR) Learning Developer",
+        "bannerImage": "https://example.com/banners/xr-learning.jpg",
+        "location": "Austin, TX",
+        "salary": "$90,000 - $125,000",
+        "jobType": "Full-time",
+        "description": "Develop immersive augmented and virtual reality experiences for educational purposes.",
+        "requirements": [
+          "Proficiency in Unity or Unreal Engine",
+          "Experience with C# or C++ for XR development",
+          "Knowledge of 3D modeling and animation principles",
+          "Familiarity with ARKit/ARCore or similar SDKs",
+          "Passion for innovative learning technologies"
+        ]
+      }
+    ]
+  }
+]
