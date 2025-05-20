@@ -1,113 +1,136 @@
 import React from 'react';
-import CountUp from 'react-countup';
-import banner from '../assets/banner.jpg'
-import { FaIndustry, FaMapMarkerAlt, FaSearch } from 'react-icons/fa';
-import { NavLink } from 'react-router';
+import logo from '../assets/logo.png';
+import portal from '../assets/portal.png';
+import bgImage from '../assets/bg.png';
+import bubble from '../assets/bubble.png'; // Ensure this import is correct
+import { FaRegPlayCircle } from 'react-icons/fa';
+import gun from '../assets/gun.png'
+import { Link } from 'react-router';
+import CastCarousel from './CastCarousel';
+import EpisodeCarousel from './EpisodeCarousel';
 
 const HeroSection = () => {
   return (
-    <div
-      className="relative bg-cover bg-center bg-no-repeat min-h-[90vh]"
-      style={{ backgroundImage: `url(${banner})` }}
-    >
-
+    <div className="relative min-h-screen text-white bg-[#191D29] overflow-hidden">
+      {/* Background Image with adjusted opacity and blend mode */}
+      <div
+        className="absolute inset-0 bg-cover bg-center z-0"
+        style={{
+          backgroundImage: `url(${bgImage})`,
+          opacity: 0.3,
+          mixBlendMode: 'overlay',
+        }}
+      ></div>
 
       <div
-        className="absolute inset-0 flex flex-col justify-center items-center text-center px-4"
-        style={{ backgroundColor: "rgba(73, 66, 228, 0.5)" }}
-      >
-        <h1 className="text-white text-4xl md:text-5xl font-bold leading-tight mb-4">
-          The <span className="text-[#11009E]">#1 Job Board</span> for <br />
-          Hiring or Find your next job
-        </h1>
-        <p className="text-white mb-6 max-w-2xl">
-          Each month, more than 3 million job seekers turn to website in their search for work,
-          making over 140,000 applications every single day
-        </p>
+        className="absolute inset-0 z-0"
+        style={{
+          backgroundImage: `radial-gradient(circle at center, rgba(217,217,217,0.05) 0%, rgba(25,29,41,0.8) 70%, rgba(25,29,41,1) 100%)`,
+        }}
+      ></div>
 
+      {/* Content */}
+      <div className="relative z-10 flex flex-col items-center justify-center text-center px-4">
 
-        {/* Search Form */}
-        <div className="flex flex-col md:flex-row items-center bg-white rounded-xl p-4 gap-2 shadow-lg w-full max-w-4xl">
-          <div className="flex items-center w-full md:w-1/3 gap-2">
-            <FaIndustry className="text-gray-500" />
-            <select className="select select-bordered w-full">
-              <option disabled selected>Industry</option>
+        <Link to='/'>
+          <img
+            src={logo}
+            alt="Logo"
+            className="w-[177px] h-[41px] md:w-[257px] md:h-[48px] mt-10  mb-15 md:mb-[120px] md:mt-[58px]"
+          />
+        </Link>
+        <div className='flex' style={{
+          textShadow: `
+      0px 0px 0px #9DFE00,  /* Reduced blur radius */
+      0px 0px 2px #14D9E5, /* Slightly dimmer */
+      0px 0px 68px rgba(20, 217, 229, 0.8) /* Added transparency */
+    `,
+        }}
+        >
+          <div className="flex flex-row items-start w-full px-4 sm:px-6 md:px-8">
+            {/* Title Section - 80% */}
+            <div className="w-[80%] md: flex flex-col justify-center">
+              <h1 className="text-[28px] xs:text-[112px] sm:text-[118px] font-extrabold leading-tight">
+                <div className="flex items-center gap-2 relative mb-2">
+                  <span className="relative inline-block">
+                    <img
+                      src={bubble}
+                      alt="Bubble"
+                      className="absolute -top-6 -left-6 w-[60px] h-[60px] z-10  md:-top-23 md:-left-24 md:w-[214px] md:h-[214px] "
+                    />
+                    <span className="italic text-white relative z-20">THE</span>
+                  </span>
+                  <img
+                    src={portal}
+                    alt="Portal"
+                    className="w-[40px] h-[30px] md:w-[224px] md:h-[145px]  animate-pulse mx-2"
+                    style={{ transform: "translateY(-0%)" }}
+                  />
+                  <span className="bg-gradient-to-r from-[#15BFFD] to-[#84F729] bg-clip-text text-transparent">
+                    RICK &
+                  </span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="bg-gradient-to-r from-[#15BFFD] to-[#84F729] bg-clip-text text-transparent">
+                    MORTY
+                  </span>
+                  <span className="italic text-white font-extrabold">WIKI</span>
+                </div>
+              </h1>
+            </div>
 
-              <option>Software Development</option>
-              <option>Finance</option>
-              <option>HealthCare</option>
-              <option>Clean Energy</option>
-              <option>Education Technology</option>
-            </select>
+            {/* Gun Section - 20% */}
+            <div className="w-[20%] flex justify-center items-start relative">
+              <div
+                className="absolute w-[30px] h-[50px] md:w-[170px] md:h-[281px] bg-gradient-to-r from-[#9DFE00] via-[#14D9E5] to-[#14D9E5] rounded-[50px]"
+                style={{
+                  filter: "drop-shadow(0px 10px 30px rgba(20,217,229,0.5))",
+                  zIndex: -1,
+                  transform: "rotate(35deg)",
+                }}
+              ></div>
+
+              <img
+                src={gun}
+                alt="Portal Gun"
+                className="w-[90px] h-auto md:w-[318px] md:h-[179px] "
+                style={{
+                  filter: "drop-shadow(0px 5px 15px rgba(20,217,229,0.7))",
+                }}
+              />
+            </div>
           </div>
 
-          <div className="flex items-center w-full md:w-1/3 gap-2">
-            <FaMapMarkerAlt className="text-gray-500" />
-            <select className="select select-bordered w-full">
-              <option disabled selected>Location</option>
-              <option>Dhaka</option>
-              <option>London</option>
-              <option>New York</option>
-            </select>
-          </div>
 
-          <div className="w-full md:w-1/3">
-            <input
-              type="text"
-              placeholder="Your keyword..."
-              className="input input-bordered w-full"
-            />
-          </div>
 
-          <NavLink to={'/category'} className="btn bg-blue-600 hover:bg-blue-700 text-white mt-2 md:mt-0 md:ml-2">
-            <FaSearch className="mr-2" /> Search
-          </NavLink>
+
+
+
         </div>
 
-        {/* Popular Searches */}
-        <div className="mt-6 text-white text-sm md:text-base">
-          <span className="font-semibold">Popular Searches:</span>
-          <span className="ml-2 space-x-2">
-            <a href="#" className="hover:underline">Software Devolopment</a>
-            <a href="#" className="hover:underline">Finace</a>
-            <a href="#" className="hover:underline">IOS</a>
-            <a href="#" className="hover:underline">Developer</a>
-            <a href="#" className="hover:underline">PHP</a>
-            <a href="#" className="hover:underline">Senior</a>
-            <a href="#" className="hover:underline">Engineer</a>
-          </span>
-        </div>
 
 
-        {/* Stats */}
-        <div className="mt-6 flex flex-wrap justify-center gap-6 text-white text-center">
-          <div>
-            <h2 className="text-2xl font-bold">
-              <CountUp end={265000} duration={5} separator="," />+
-            </h2>
-            <p>Daily Jobs Posted</p>
-          </div>
-          <div>
-            <h2 className="text-2xl font-bold">
-              <CountUp end={17000} duration={7} separator="," />+
-            </h2>
-            <p>Recruiters</p>
-          </div>
-          <div>
-            <h2 className="text-2xl font-bold">
-              <CountUp end={17000} duration={2} separator="," />+
-            </h2>
-            <p>Freelancers</p>
-          </div>
-          <div>
-            <h2 className="text-2xl font-bold">
-              <CountUp end={28000} duration={6} separator="," />+
-            </h2>
-            <p>Blog Tips</p>
-          </div>
+
+
+        {/* Buttons & Description */}
+        <div className="flex flex-col-reverse   sm:flex-row  items-start md:items-center gap-4 mt-8">
+          <Link to="https://www.youtube.com/watch?v=KQ9Cgdsa9tc" target="_blank" rel="noopener noreferrer">
+            <button className="flex justify-center items-center gap-2 bg-gradient-to-r from-[#9DFE00] to-[#14D9E5] px-6 rounded-full  p-2 md:py-4 md:font-medium">
+              <FaRegPlayCircle /> Watch Now
+            </button>
+          </Link>
+          <p className="text-sm md:w-[400px] text-[#14D9E5]  text-start">
+            Brilliant but boozy scientist Rick hijacks his fretful teenage
+            grandson, Morty, for wild escapades in other worlds and alternate
+            dimensions.
+          </p>
         </div>
+
+        <CastCarousel></CastCarousel>
+
+
       </div>
-
+      <EpisodeCarousel ></EpisodeCarousel>
     </div>
   );
 };

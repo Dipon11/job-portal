@@ -1,21 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 @import "tailwindcss";
-@plugin "daisyui" {
-  themes: light --cupcake;
-}
-@plugin "daisyui/theme" {
-  name: "light";
-  default: true;
-  --color-primary: #403f3f;
-  --color-secondary: #d72050;
-  --color-base-200: #f3f3f3;
-  --color-base-300: #e7e7e7;
-  --color-accent: #706f6f;
-  --color-beguni:#4942E4;
-}
+@plugin "daisyui" ;
+
 *{
-  font-family: "Ubuntu" ,sna;
+   font-family: 'TTTravels', sans-serif;
 }
-a.active{
-  @apply bg-base-300
+
+/* In App.css or src/index.css */
+@font-face {
+  font-family: 'TTTravels-Black'; /* Give it a specific font family name */
+  src: local('TTTravels-Black'), /* Optional: If the user might have it locally */
+       url('../fonts/TTTravels-Black.woff2') format('woff2'),
+       url('../fonts/TTTravels-Black.ttf') format('truetype');
+  font-weight: normal; /* Since it's "Black", you might adjust this if needed */
+  font-style: normal;
+  font-display: swap;
 }
+
+.gradient-shadow {
+  text-shadow:
+    -1px -1px 0 #9DFE00,
+     1px -1px 0 #A9F373,
+    -1px  1px 0 #4FD9CE,
+     1px  1px 0 #14D9E5;
+}
+
+.text-shadow-neon {
+  text-shadow: 
+    0 0 10px #9DFE00, 
+    0 0 20px #9DFE00, 
+    0 0 30px #14D9E5, 
+    0 0 40px #14D9E5;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+

@@ -4,27 +4,33 @@ import Header from '../Components/Header';
 import HeroSection from '../Components/HeroSection';
 import Test from '../Components/Test';
 import Categories from '../Components/Categories';
-import Footer from '../Components/Footer';
+
+
+import CastCarousel from '../Components/CastCarousel';
+import EpisodeCarousel from '../Components/EpisodeCarousel';
+import LocationCarousel from '../Components/LocationCarousel';
 
 const HomeLayout = () => {
   return (
     <div>
       <header>
-        <Header></Header>
-        <section>
-          <HeroSection></HeroSection>
-        </section>
+
+
+        <HeroSection></HeroSection>
+
       </header>
 
-      <main className='max-w-7xl mx-auto'>
-        <Suspense fallback={<span className="loading loading-spinner loading-lg"></span>}>
-          <Categories></Categories>
-        </Suspense>
+      <main className='bg-[#191D29] 
+       '>
+
         <Outlet></Outlet>
+
+
+
 
       </main>
       <footer>
-        <Footer></Footer>
+
       </footer>
     </div>
   );
